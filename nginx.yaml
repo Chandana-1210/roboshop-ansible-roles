@@ -1,5 +1,5 @@
 - name: installing package and starting services
-  hosts: frontend
+  hosts: dynamic_frontend
   become: true
   tasks:
     - name: installing package
